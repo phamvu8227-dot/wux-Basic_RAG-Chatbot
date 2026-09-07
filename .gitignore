@@ -1,0 +1,21 @@
+# Môi trường ảo
+.venv/
+venv/
+env/
+
+# Thư mục lưu Vector DB & Cache
+*.chroma/
+chroma_db/
+faiss_index/
+__pycache__/
+*.pyc
+
+# Các file dữ liệu & model nặng
+*.bin
+*.pth
+*.onnx
+*.pt
+*.pdf
+data/
+.vscode/
+rag_env/
